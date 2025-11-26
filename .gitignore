@@ -1,0 +1,51 @@
+# ----------------------
+# PYTHON / BACKEND
+# ----------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# ----------------------
+# NODE / FRONTEND (Astro/React)
+# ----------------------
+# Dependencias (Se reinstalan con npm install)
+node_modules/
+
+# Builds de producción
+dist/
+build/
+
+# Archivos temporales de Astro
+.astro/
+
+# Logs de errores de npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------
+# GENERAL / SISTEMA
+# ----------------------
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de variables de entorno (¡Seguridad!)
+.env
+.env.local
+.env.production
+
+# Carpetas de IDEs (Opcional, pero recomendado)
+.vscode/
+.idea/

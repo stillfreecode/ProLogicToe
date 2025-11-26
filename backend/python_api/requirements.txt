@@ -1,0 +1,4 @@
+fastapi>=0.103.2
+uvicorn[standard]>=0.22.0
+pyswip>=0.2.10
+pydantic>=2.5.3
