@@ -4,8 +4,11 @@ import Board from './Board.jsx';
 
 
 // --- (Constantes
-const API_URL = 'http://127.0.0.1:8000/api/move';
-const API_EXPLAIN_URL = 'http://127.0.0.1:8000/api/explain'; 
+//ACTIVAR SI DESEA LEVANTAR EN LOCAL
+//const API_URL = 'http://127.0.0.1:8000/api/move';
+//const API_EXPLAIN_URL = 'http://127.0.0.1:8000/api/explain'; 
+const API_URL = 'https://prologictoe-backend.onrender.com/api/move';
+const API_EXPLAIN_URL = 'https://prologictoe-backend.onrender.com/api/explain';
 const PLAYER_HUMAN = 'o';
 const PLAYER_AI = 'x';
 const EMPTY_CELL = 'v';
