@@ -7,6 +7,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://stillfreecode.github.io',
+  base: '/ProLogicToe',
   integrations: [react()],
 
   vite: {
