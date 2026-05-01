@@ -22,19 +22,19 @@ El proyecto desacopla la lógica de reglas del algoritmo de búsqueda. Mientras 
 
 ## Fundamentos Teóricos: Minimax
 
-El núcleo de este sistema se basa en la Teoría de Juegos para entornos de información perfecta y suma cero.
+Este sistema se basa en la Teoría de Juegos para entornos de información perfecta y suma cero.
 
 El algoritmo Minimax opera bajo la premisa de que ambos jugadores actuarán de manera óptima:
 1.  **Maximizador (IA):** Busca el nodo hoja con el valor más alto (+1).
 2.  **Minimizador (Oponente):** Busca el nodo hoja con el valor más bajo (-1).
 
-El algoritmo atraviesa el árbol de decisiones de forma recursiva. Para optimizar el rendimiento computacional, integramos la **Poda Alfa-Beta**. Esta técnica descarta ramas del árbol que no pueden influir en la decisión final, reduciendo el espacio de búsqueda sin comprometer la exactitud de la solución.
+El algoritmo atraviesa el árbol de decisiones de forma recursiva. Para optimizar integramos  **Poda Alfa-Beta**. Para descartar ramas del árbol que no pueden influir en la decisión final, reduciendo el espacio de búsqueda sin comprometer la exactitud de la solución.
 
 ---
 
 ## Arquitectura del Código
 
-El sistema utiliza `PySwip` como puente de comunicación entre el paradigma imperativo (Python) y el declarativo (Prolog).
+`PySwip` como puente de comunicación entre Python y Prolog
 
 ### Validación Declarativa (Prolog)
 En lugar de iterar sobre matrices, definimos las condiciones de victoria como hechos lógicos dentro de `rules.pl`.
@@ -66,7 +66,7 @@ ganador(Tablero, Jugador) :-
 ```
 
 ### Algoritmo de Búsqueda (Python)
-El backend delega la validación de estados a Prolog, permitiendo que Python se concentre exclusivamente en la estrategia de búsqueda en `minimax.py`.
+El backend delega la validación de estados a Prolog, permitiendo que Python se concentre en la estrategia de búsqueda en `minimax.py`.
 
 ```minimax.py
 def minimax(board_list, is_maximizing_turn, alpha, beta, depth):
@@ -146,9 +146,9 @@ def minimax(board_list, is_maximizing_turn, alpha, beta, depth):
 
 **Opción A: Docker**
 
-**Requisitos previos** Docker Dekstop: https://www.docker.com/products/docker-desktop/
+**Requisitos previos** Docker: https://www.docker.com/
 
-Para garantizar la consistencia entre entornos y evitar configuraciones manuales de Prolog, recomendamos usar Docker:
+recomendamos usar Docker:
 
 ### 1. Clonar el repositorio
 
@@ -193,6 +193,6 @@ npm run dev
 ## Informacion del proyecto
 **Licencia: MIT**
 
-**Desarrollado por: Ing. Rodolfo Ángel Córdoba Villegas**
+**Desarrollado por: stillfreecode**
 
 **Copyright (c) 2025 Rodolfo Angel Cordoba Villegas**
