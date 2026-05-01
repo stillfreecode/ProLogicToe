@@ -9,9 +9,6 @@
 **ProLogicToe** es una implementación del juego Tic Tac Toe, diseñada para demostrar la viabilidad del algoritmo Minimax de IA en la solución de juegos 1 vs 1
 <img width="1200" height="752" alt="image" src="https://github.com/user-attachments/assets/e43193ec-dd69-4fca-8c11-5349ce2f1eba" />
 
-
-El proyecto desacopla la lógica de reglas del algoritmo de búsqueda. Mientras que un motor lógico en **Prolog** valida los estados del juego, un backend en **Python** ejecuta una búsqueda **Minimax optimizada con Poda Alfa-Beta**. Esta separación de responsabilidades permite un código más limpio, mantenible y demostrable matemáticamente. La interfaz de usuario, construida con **React y Astro**, ofrece una experiencia moderna y responsiva.
-
 ---
 
 ## Demo
