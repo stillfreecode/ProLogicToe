@@ -187,9 +187,4 @@ npm run dev
 
 ---
 
-## Informacion del proyecto
-**Licencia: MIT**
-
 **Desarrollado por: stillfreecode**
-
-**Copyright (c) 2025 Rodolfo Angel Cordoba Villegas**
