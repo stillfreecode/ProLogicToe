@@ -38,10 +38,7 @@ const AboutContent = () => (
     <hr className="my-6 border-slate-700" />
     <div className="text-sm text-slate-400 space-y-1">
       <p>
-        <span className="font-semibold text-slate-300">Autor:</span> stillfreecode - AngelCV
-      </p>
-      <p>
-        <span className="font-semibold text-slate-300">Curso:</span> Inteligencia Artificial
+        <span className="font-semibold text-slate-300">stillfreecode</span>
       </p>
     </div>
   </>
