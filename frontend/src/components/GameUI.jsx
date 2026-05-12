@@ -109,7 +109,6 @@ export default function GameUI() {
         setGameStatus('en_juego');
     };
 
-    // --- (Handlers para la Bienvenida) ---
     const handleNameChange = (e) => {
         setPlayerName(e.target.value);
     };
@@ -121,9 +120,9 @@ export default function GameUI() {
         }
     };
 
-    // --- Renderizado Condicional ---
 
-    // VISTA 1: Pantalla de Bienvenida
+
+ 
     if (view === "welcome") {
         return (
             <div 
@@ -145,9 +144,9 @@ export default function GameUI() {
                 <p className="text-slate-400 mb-6 text-center text-lg">
                     Tic Tac Toe IA
                     <br />
-                    <span className="text-sm">Powered by Prolog & Python Minimax</span>
+                    <span className="text-sm">Prolog & Python Minimax</span>
                     <br />
-                    <span className="text-sm">Por Angel Cordoba</span>
+          
                 </p>
                 { }
 
